@@ -16,9 +16,6 @@ venv/
 data/raw/
 data/processed/
 
-# Model files
-models/
-
 # OS files
 .DS_Store
 Thumbs.db
