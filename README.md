@@ -3,6 +3,19 @@
 An end-to-end data science project predicting customer lifetime value using purchase behavior data. Includes exploratory data analysis, RFM feature engineering, probabilistic modeling (BG/NBD), regression modeling (XGBoost), and a deployed Streamlit app for interactive and bulk predictions.
 
 🔗 **Live App:** [https://customer-lifetime-value-prediction-mjjpvqedvmwwuldynhkwyr.streamlit.app](https://customer-lifetime-value-prediction-mjjpvqedvmwwuldynhkwyr.streamlit.app)
+
+##  Dataset Source
+
+### [Download the Online Retail dataset from Kaggle](https://www.kaggle.com/datasets/tunguz/online-retail)
+
+After downloading and extracting the dataset, place the CSV file at:
+
+```text
+data/raw/Online Retail.csv
+```
+
+The notebooks and application expect the dataset at this location.
+
 ## Overview
 
 This project predicts how much revenue a customer is likely to generate, using only their purchase history (frequency, recency, and customer age). It's designed to help a business identify high-value customers worth retaining versus low-value customers.
