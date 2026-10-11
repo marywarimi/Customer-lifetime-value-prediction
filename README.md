@@ -101,6 +101,11 @@ On Windows:
 ```bash
    streamlit run app.py
 ```
+
+5. Open the app in your browser at:
+   
+   [http://localhost:8501](http://localhost:8501)
+
 ## Tech Stack
 
 - **Python** — pandas, numpy, scikit-learn, xgboost, lifetimes
