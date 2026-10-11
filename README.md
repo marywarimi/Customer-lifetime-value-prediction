@@ -64,12 +64,27 @@ Customer-lifetime-value-prediction/
    cd Customer-lifetime-value-prediction
 ```
 
-2. Install dependencies:
+2. Create and activate a virtual environment:
+```bash
+   python -m venv .venv
+```
+
+On Linux/macOS:
+```bash
+   source .venv/bin/activate
+```
+
+On Windows:
+```text
+   .venv\Scripts\activate
+```
+
+3. Install dependencies:
 ```bash
    pip install -r requirements.txt
 ```
 
-3. Run the app:
+4. Run the app:
 ```bash
    streamlit run app.py
 ```

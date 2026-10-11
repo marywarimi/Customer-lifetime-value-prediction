@@ -12,9 +12,12 @@ venv/
 # Environment variables / secrets
 .env
 
-# Raw and processed datasets
-data/raw/
-data/processed/
+# Data files, while preserving the directory structure
+data/**
+!data/raw/
+!data/raw/.gitkeep
+!data/processed/
+!data/processed/.gitkeep
 
 # OS files
 .DS_Store
